@@ -1,0 +1,48 @@
+.block {
+    padding: 50px;
+    max-width: 1170px;
+}
+.block__item {
+    margin: 0px 0px 30px 0px;
+}
+.square {
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 8, 251);
+    color: rgb(21, 251, 0);
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 20px;
+    Text-align: center;
+}
+.rectangle {
+    border-radius: 10%;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(249, 249, 249);
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+.oval {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(113, 0, 139);
+    color: rgb(255, 255, 0);
+    margin: 40px;
+    padding: 20px; 
+    Text-align: center;
+}
