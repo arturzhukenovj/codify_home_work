@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    width: 20%;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    margin: 10vh auto;
+    border-radius: 15px;
+    padding: 15px 0px ;
+}
+h1 {
+    margin: 0;
+    color: #000;
+    font-family: initial;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 40px 0px;
+}
+.Acer {
+    margin-top: 60px;
+} 
+p {
+    
+    margin: 0px;
+}
+.puma {
+    margin-top: 4px;
+}
+.Enter {
+    margin-bottom: 50px;
+}
+input {
+    color: #000950;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-left: 3vh;
+}
+button {
+    width: 422px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 32px;
+background: #0015ff;
+margin-top: 80px;
+margin-left: 0px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-family: serif;
+}
+.wins {
+    margin-top: 100px;
+    margin-left: 660px;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: unset;
+}
+.UTF {
+    color: rgb(92, 91, 91);
+}
+.With {
+ margin-top: 4vh;
+ margin-left: 14vh;
+ font-size: 20px;
+ color: grey;
+}
+.img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #000950;
+    margin-bottom: 0;
+}
+
+
