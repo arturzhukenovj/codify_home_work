@@ -1,0 +1,13 @@
+@media screen and (max-width:1200px) {
+    .container {
+        position: static;
+        top: 0;
+        background-color: red;
+    }
+}
+/* @media screen and (max-width:883px) {
+    .container1 {
+        position: static;
+        top: 0;
+    }
+} */
