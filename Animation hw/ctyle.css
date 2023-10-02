@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.box_1 {
+    width: 1260px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.gorizontal {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(251, 0, 255);
+    border-radius: 50%;
+}
+.gorizontal:hover {
+    animation: gorizont 10s;
+}
+@keyframes gorizont {
+    0% {
+        left: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    100% {
+        left: 83.5%;
+        top: 0;
+        margin-top: 10px;
+    }
+}
+.box_2 {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.big {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.big:active {
+    animation: big-min 3s;
+}
+@keyframes big-min {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: darkgreen;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+}
+.colors {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    animation: col 4s infinite alternate;
+}
+@keyframes col {
+    0% {
+        background-color: rgb(40, 172, 0);
+    }
+    33% {
+        background-color: rgb(38, 0, 255);
+    }
+    66%{
+        background-color: rgb(217, 0, 255);
+    }
+    100% {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+
