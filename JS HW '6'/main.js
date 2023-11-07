@@ -53,12 +53,12 @@ console.log(`Сложение = ${res}`,  `Умножение = ${ress}`)
 //! Task 5
 
 function dayweek() {
-    let dd = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье']
+    let dd = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
     let ddd = new Date().getDay()
     return dd[ddd]
 }
 let today = dayweek()
-console.log(`Сегодня ${today}`)
+console.log(`Сегодня - ${today}`)
 
 //! Task 6 
 

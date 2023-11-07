@@ -14,7 +14,7 @@ const loveNum = 777
 const loveColor = "white"
 
 console.log(typeof loveNum)
-console.log(typeof "")
+console.log(typeof loveColor)
 
 // !  Задача 3: Строки.
 

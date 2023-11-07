@@ -2,7 +2,7 @@
 
 const mapp = [1,2,3,4,5]
 
-const mapArr = mapp.map((elem) => elem * 10)
+const mapArr = mapp.map((elem) => elem + 10)
 
 console.log(mapArr)
 
@@ -19,7 +19,7 @@ console.log(fil)
 const forch = [1,2,3,4,5]
 
 const forchh = forch.forEach((elem) =>{
-    console.log(elem **2)
+    console.log(elem ** 2)
 })
 
 //! ЗАДАНИЕ 4 Reduce
