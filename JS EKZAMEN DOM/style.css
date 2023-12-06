@@ -1,0 +1,67 @@
+.container {
+    /* background-color: rgba(255, 0, 217, 0.627); */
+    width: 310px;
+    height: 360px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 70px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  body{
+    background-color: rgb(153, 0, 255);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3{
+    margin-left: 83px;
+    color: aliceblue;
+  }
+  .inp1 {
+    margin-left: 70px;
+    width: 160px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(153, 0, 255);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    
+  }
+  input{
+    outline: none;
+  }
+  .inp2 {
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 160px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(153, 0, 255);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+  }
+  .inp3 {
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 160px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(153, 0, 255);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+  }
+  button{
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: rgba(170, 0, 255, 0.933);
+    border-radius: 10px;
+    border: 1.5px solid white;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+  }
+  ::placeholder{
+    color: aliceblue;
+    font-size: 15px;
+  }
